@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+
+//to delete the last element of array
+
 int main()
 {
       int a[] = {2 , 3 , 4 ,5 , 6 , 7};
@@ -11,17 +14,13 @@ int main()
             cout<<a[i]<<"  ";
       }
       cout<<endl;
-      for(int i = 0 ; i<n ; i++)
+      for(int i = 0 ; i<n-1; i++)
       {
-            
-            if(i == 2)
-            {
-                  a[i] = 15;
-            }
+            a[i] = a[i+1];
       }
       cout<<"Modified array"<<endl;
       
-      for(int i = 0 ; i<n ; i++)
+      for(int i = 0 ; i<n-1 ; i++)
       {
             
             cout<<a[i]<<"  ";

@@ -30,6 +30,5 @@ int main()
       } while (i < 0);  // check condition
       
 
-
       return 0;
 }

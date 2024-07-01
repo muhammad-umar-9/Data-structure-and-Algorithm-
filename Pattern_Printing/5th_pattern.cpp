@@ -8,7 +8,7 @@
 #include<iostream>
 using namespace std;
 
-void pattern(int n)
+void pattern_5(int n)
 {
       for(int i = 0; i <= n; i++)
       {
@@ -26,7 +26,7 @@ int main()
       int n;
       cout<<"Enter N to print pattern  "<<endl;
       cin>>n;
-      pattern(n);
+      pattern_5(n);
 
       return 0;
 

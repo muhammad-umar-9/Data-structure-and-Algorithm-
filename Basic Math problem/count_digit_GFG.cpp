@@ -8,6 +8,7 @@ int main()
       cout<<"Enter number to count digits"<<endl;
       cin>>n;
       n_str = to_string(n);
+      cout<<n_str<<endl;
       for(char ch : n_str)
       {
             int digit = ch - '0';
